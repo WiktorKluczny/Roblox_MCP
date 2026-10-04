@@ -109,15 +109,3 @@ Put your plugin in [`plugin/`](plugin/) and install it in Studio (save it as a l
 The bridge listens on `127.0.0.1` only and has **no authentication**. Any local program can send commands
 that the plugin will execute inside Studio, including `execute_luau`. Do not expose the port to a network,
 and only use it on machines you trust.
-
-## Development
-
-```powershell
-python -m py_compile main.py
-```
-
-CI runs this on every push (see `.github/workflows/ci.yml`).
-
-## License
-
-[MIT](LICENSE)

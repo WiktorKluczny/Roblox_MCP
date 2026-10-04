@@ -1,4 +1,4 @@
-Roblox MCP Bridge
+**Roblox MCP Bridge**
 
 A custom Model Context Protocol (MCP) bridge that connects AI assistants such as Claude directly to Roblox Studio.
 
@@ -6,16 +6,16 @@ The project creates a communication layer between an MCP server written in Pytho
 
 
 Current Features:
--Read and search Roblox scripts
--Edit Roblox Lua/Luau source code
--Search the Roblox game hierarchy
--Inspect instances and attributes
--Create, modify, and delete instances
--Read and modify Studio selections
--Execute Luau inside Studio
--Capture Studio console output
--Insert Roblox assets
--Communicate through a local HTTP bridge
+- Read and search Roblox scripts
+- Edit Roblox Lua/Luau source code
+- Search the Roblox game hierarchy
+- Inspect instances and attributes
+- Create, modify, and delete instances
+- Read and modify Studio selections
+- Execute Luau inside Studio
+- Capture Studio console output
+- Insert Roblox assets
+- Communicate through a local HTTP bridge
 
 Extensible handler-based architecture for adding new tools
 
